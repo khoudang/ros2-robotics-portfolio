@@ -1,4 +1,4 @@
-# CDRBvAI | Robotics & ROS 2
+# ROS 2 Robotics Portfolio
 
 **Portfolio thực hành robot của [@khoudang](https://github.com/khoudang)** — từ giao tiếp giữa các node ROS 2, thiết kế message/service, đến điều khiển robot và mô phỏng mê cung với LiDAR trên Gazebo.
 
@@ -76,9 +76,5 @@ Bài 6/  Mê cung, robot LiDAR, bám tường trái
 - Bài 2 là các file ví dụ, cần bổ sung package/workspace để build interface.
 - Bài 3 có package `my_pkg` nằm ngoài `src`; một số entry point trong package này còn tham chiếu module không có trong bản nguồn.
 - Bài 6 sử dụng định danh `maze_robot`; bridge/launch bên ngoài cần dùng cùng tên và topic.
-
-## Ghi chú
-
-Thông tin cá nhân trong dữ liệu mẫu được thay bằng dữ liệu giả. Repo không chứa báo cáo, file nén hoặc thư mục build/log/cache. License và thông báo bản quyền có sẵn được giữ nguyên trong từng package.
 
 **An toàn:** các node điều khiển GPIO có thể tác động lên phần cứng. Chỉ chạy trên robot thật sau khi kiểm tra cấu hình chân, hướng quay và cơ chế dừng.
