@@ -1,0 +1,21 @@
+# ROS / colcon generated files
+**/build/
+**/install/
+**/log/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+# Reports, archives, editor/runtime files
+*.docx
+*.pdf
+*.rar
+*.zip
+~$*
+.lgd-*
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
